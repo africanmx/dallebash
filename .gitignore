@@ -1,0 +1,7 @@
+# Ignore compiled binaries
+*.png
+
+# Ignore config files that may contain sensitive information
+.dalle_config
+.openai_api_key
+.dalle_output_dir
