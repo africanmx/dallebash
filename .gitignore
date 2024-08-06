@@ -5,3 +5,16 @@
 .dalle_config
 .openai_api_key
 .dalle_output_dir
+
+serverless/node_modules
+serverless/.serverless
+serverless/.webpack
+serverless/.env
+serverless/.env.local
+serverless/.env.development
+serverless/.env.production
+serverless/.env.test
+serverless/.env.staging
+serverless/.env.prod
+serverless/.next
+serverless/.vercel
