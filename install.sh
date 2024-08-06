@@ -7,8 +7,6 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-cp dallebash.sh $BINPATH
-
 if [ -f $BINPATH ]; then
   echo "dallebash already exists in /usr/local/bin. Overwrite? (y/n)"
   read -r response
@@ -17,6 +15,8 @@ if [ -f $BINPATH ]; then
     exit 1
   fi
 fi
+
+cp dallebash.sh $BINPATH
 
 if [ ! -f $BINPATH ]; then
   echo "Installation failed."
