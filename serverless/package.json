@@ -1,0 +1,26 @@
+{
+  "name": "dallebash-image-generator",
+  "version": "1.0.0",
+  "description": "Serverless function to generate and upload images to S3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.624.0",
+    "@aws-sdk/s3-request-presigner": "^3.624.0",
+    "aws-sdk": "^2.1669.0",
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "openai",
+    "dalle"
+  ],
+  "author": "Luis Pulido Diaz",
+  "license": "MIT"
+}
